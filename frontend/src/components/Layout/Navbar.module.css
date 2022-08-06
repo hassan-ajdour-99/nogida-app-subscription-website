@@ -1,0 +1,40 @@
+.container {
+  /* background-color: #08cf4e; */
+  /* background-color: #00ab66; */
+  background-color: #0dc279;
+  color: #fff;
+  padding-top: 1.7rem;
+  height: 55px;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.header {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.mainUl {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.mainUl li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media (max-width: 500px) {
+}
