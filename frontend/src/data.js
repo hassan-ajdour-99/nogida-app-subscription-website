@@ -30,4 +30,14 @@ export const dummy_data = [
     rooms: 3,
     rating: 4.5,
   },
+  {
+    _id: "4",
+    name: "House",
+    description: "House for Family Vocation",
+    rent: true,
+    sell: false,
+    price: 9999.99,
+    rooms: 3,
+    rating: 4.5,
+  },
 ];
